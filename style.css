@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    border: 0;
+    font-family: "Roboto" , sans-serif;
+}
+
+.container{
+    width:100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather{
+    color: white;
+    display:flex;
+    align-items: center;
+}
+
+.weather > div{
+    margin: 0.7rem;
+}
+
+.weather p{
+    font-size: 2rem;
+}
+
+.weather span{
+    font-size: 0.75rem;
+}
+
+nav{
+
+    color: white;
+    position: absolute;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 65, 5);
+    width: 100%;
+    bottom: 0%;
+}
+
+nav form{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.searchField{
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 0;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    width: 98%;
+}
+
+nav form button{
+    background-color: cadetblue;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.weather_condition span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
